@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "alimq4"
+version = "0.1.8"
+description = "flaskapi4"
+authors = ["王梓清 <9464553+superwzq1993@user.noreply.gitee.com>"]
+readme = "README.md"
+homepage = "https://github.com/eininst/alimq4"
+documentation = "https://github.com/eininst/alimq4"
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mq_http_sdk = "1.0.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+requires-python = ">=3.9"
+dependencies = ["mq_http_sdk>=1.0.3"]
