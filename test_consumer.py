@@ -7,8 +7,6 @@ if __name__ == '__main__':
 
     # 初始化client。
     mq_client = MQClient(
-
-
     )
     # 消息所属的Topic，在消息队列RocketMQ版控制台创建。
     topic_name = "ali_mq"
